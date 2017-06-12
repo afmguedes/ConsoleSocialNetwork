@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7493B1A1-BFFF-4194-A4DA-7B7431885CBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{27EC9A7D-9358-4718-BB51-8B70EE324725}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ConsoleSocialNetwork", "src\ConsoleSocialNetwork\ConsoleSocialNetwork.xproj", "{B91CFEBB-65A8-42C5-82B3-3C6F57FA3425}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CSN_Tests", "src\CSN_Tests\CSN_Tests.xproj", "{73FB6E23-1EC8-4159-8EC3-D753DC82B0D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B91CFEBB-65A8-42C5-82B3-3C6F57FA3425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B91CFEBB-65A8-42C5-82B3-3C6F57FA3425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B91CFEBB-65A8-42C5-82B3-3C6F57FA3425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B91CFEBB-65A8-42C5-82B3-3C6F57FA3425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73FB6E23-1EC8-4159-8EC3-D753DC82B0D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73FB6E23-1EC8-4159-8EC3-D753DC82B0D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73FB6E23-1EC8-4159-8EC3-D753DC82B0D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73FB6E23-1EC8-4159-8EC3-D753DC82B0D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B91CFEBB-65A8-42C5-82B3-3C6F57FA3425} = {7493B1A1-BFFF-4194-A4DA-7B7431885CBA}
+		{73FB6E23-1EC8-4159-8EC3-D753DC82B0D9} = {7493B1A1-BFFF-4194-A4DA-7B7431885CBA}
+	EndGlobalSection
+EndGlobal
